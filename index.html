@@ -1,78 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Coming Soon - 20kHertz</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.css" rel="stylesheet">
-
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Plata Solutions Homepage">
+    <meta name="author" content="Plata Solutions">
+    <title>Plata Solutions</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- Bootstrap + main styles -->
+	<link rel="stylesheet" href="assets/css/all.css">
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="80" id="home">
 
-<body>
+    <nav id="scrollspy" class="navbar page-navbar navbar-dark navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+        <div class="container flex-wrap flex-md-nowrap" aria-label="Primary Navigation">
+            <a class="navbar-brand" href="#"><img src="assets/logos/Plata-dark-transparent-small.png" alt="Plata Solutions" width="120px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
-
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Coming Soon!</h1>
-            <p class="mb-5">We're working hard to finish the development. Our target launch date is
-              <strong>November 2023</strong>!</p>
-            <p>To know more reach us at <a href="mailto:info@platasolutions.com">info@platasolutions.com</a></p>
-          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0">
+                    <li class="nav-item pr-2">
+                        <a class="nav-link" href="#bussolns">Business Solutions</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="nav-link" href="#services">IT Services</a>
+                    </li>
+		            <li class="nav-item pr-2">
+                        <a class="nav-link" href="#workforce">Agile Workforce Solutions</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="nav-link" href="#why">Why Us</a>
+                    </li>
+                    <li class="nav-item pr-2">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </nav>
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+    <header class="header d-flex justify-content-center">
+        <div class="container">
+            <div class="row h-100 align-items-center">
+                <canvas id="projector">Your browser does not support the Canvas element.</canvas>
+                <div class="col-md-7">
+                    <div class="header-content">
+                        <h3 class="header-title">
+                            <span style="font-family: 'Roboto', serif; color:#EF4623; font-weight:400">Plata</span>
+                            <div style="font-family: 'Roboto', serif; color:#797979; font-weight:100">SOLUTIONS</div>
+                        </h3>
+                        <h4 class="header-subtitle">Elevating Possibilities, Empowering Solutions</h4>
+                        <p>Your trusted partner for business solutions, IT services, and agile workforce solutions. We are 
+                            a consulting firm with a vision to bring innovative solutions to the industry by leveraging 
+                            cutting-edge technologies and top-tier talent. Whether you need to streamline your operations, 
+                            enhance your efficiency, or drive your growth, we have the right solution for you. Explore our 
+                            offerings and contact us today to take your organization to new heights.
+                        </p>
+                    </div>  
+                </div>
+            </div>  
+        </div>
+    </header>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <section class="section" id="bussolns">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h6 class="display-4 has-line">Business Solutions</h6>
+                </div>
+            </div>
+            <div class="row text-center">
+                <p>
+                    We offer solutions that can enable your businesses in growth and optimizing efficiency be it operations 
+                    or IT. We bring key partner solutions in the following business and technology areas.
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 align-self-center">
+                    <img src="assets/imgs/bus-soln.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background:transparent;">Digital Ticketing for Events</li>
+                        <li class="list-group-item" style="background:transparent;">Customer Onboarding</li>
+                        <li class="list-group-item" style="background:transparent;">Employee Onboarding</li>
+                        <li class="list-group-item" style="background:transparent;">Corporate Onboarding</li>
+                        <li class="list-group-item" style="background:transparent;">Service Provider Onboarding</li>
+                        <li class="list-group-item" style="background:transparent;">Identity Lifecycle Management</li>
+                        <li class="list-group-item" style="background:transparent;">Dynamic Application Security Testing</li>
+                        <li class="list-group-item" style="background:transparent;">Maritime Cybersecurity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
+    <section class="section" id="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h6 class="display-4 has-line">IT Services</h6>
+                </div>
+            </div>
+            <div class="row justify-content-between">     
+                <div class="col-md-6 align-self-center">
+                    <p>
+                        Experience the transformative potential of our comprehensive suite of IT services, revolutionizing 
+                        your business operations and unlocking new opportunities for success in the digital age.
+
+                        At our company, we offer a cutting-edge range of IT services that encompass digital technologies, web 
+                        technologies, and analytics. Our goal is to empower and transform businesses by leveraging innovative 
+                        solutions that streamline operations, enhance efficiency, and drive growth.
+                    </p><p>
+                        With our team of experts, we harness the power of the latest digital technologies to deliver seamless 
+                        integration, robust security, and scalable solutions tailored to meet your unique business needs. We 
+                        understand the importance of staying ahead in the digital landscape, and that's why we stay at the 
+                        forefront of technology advancements to ensure that our clients receive the most advanced and effective 
+                        solutions.
+                    </p><p>
+                        When it comes to web technologies, we are dedicated to creating engaging online experiences, responsive 
+                        designs, and customer-engaging user interfaces. We believe that a strong digital presence is essential 
+                        for businesses to effectively target their customer segments and establish a lasting impact.
+
+                        Through our IT services, you will witness the revolutionization of your business operations. We are 
+                        committed to empowering you with the tools and technologies that will drive your growth and success. 
+                        Our services are designed to optimize your processes, enhance efficiency, and provide you with a competitive 
+                        edge in the digital marketplace.
+                    </p><p>
+                        Don't miss out on the opportunities that await you in the digital age. Experience the transformative 
+                        power of our IT services and unlock your business's full potential. Contact us today to embark on a 
+                        journey of digital transformation and embrace a future of success.
+                    </p>
+                </div>
+                <div class="col-md-5 align-self-center mt-4 mt-md-0">
+                    <img src="assets/imgs/it-services-pexelscom-cco.jpg" alt="" class="shadow w-100">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="workforce">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h6 class="display-4 has-line">Agile Workforce Solutions</h6>
+                </div>
+            </div>
+            <div class="row text-center">
+                <p>
+                    We understand that building a high-performing team with specialized expertise is essential for 
+                        driving innovation and staying competitive in today's dynamic business landscape. That's why we 
+                        offer comprehensive workforce solutions that enable you to access top-tier talent and build 
+                        agile teams that deliver exceptional results.
+                </p>
+            </div>
+            <div class="row justify-content-between">     
+                <div class="col-md-6 align-self-center">
+                    <p>
+                        Our Workforce Solutions:
+                        <ul>
+                            <li>
+                                <strong>Data Science and AI: </strong> Unlock the power of data and AI with our talented 
+                                Data Scientists and AI experts. They have a strong background in statistical analysis, machine 
+                                learning, and predictive modeling, enabling you to derive valuable insights and build intelligent 
+                                systems that drive business growth.
+                            </li>
+                            <li>
+                                <strong>Data Engineering: </strong>Leverage the power of data with our expert Data Engineers. 
+                                They possess deep knowledge of data integration, processing, and storage technologies, enabling 
+                                you to build robust data infrastructure and drive data-driven insights for your business.
+                            </li>
+                            <li>
+                                <strong>Cloud Operations: </strong>Ensure a seamless transition to the cloud and optimize your 
+                                cloud infrastructure with our skilled Cloud Operations professionals. They specialize in cloud 
+                                architecture, deployment, monitoring, and optimization, enabling you to leverage the full potential 
+                                of cloud technologies.
+                            </li>
+                            <li>
+                                <strong>Website Engineering: </strong>Enhance your online presence with our skilled Website Engineers. 
+                                They are proficient in front-end and back-end development, responsive design, CMS integration, 
+                                e-commerce solutions, and more, ensuring your website is visually appealing, user-friendly, and 
+                                optimized for performance.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="assets/imgs/global-network.jpg" alt="" class="shadow w-100">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="why">
+        <div class="container text-center">
+            <h6 class="display-4 has-line">Why Us</h6>
+            <p>
+                At Plata Solutions, we are committed to delivering innovative solutions that help businesses grow and 
+                optimize efficiency. Our <strong style="color:#EF4623">team of experts</strong> offer a range of services, including business solutions, IT 
+                services, and workforce solutions. We partner with select product and services companies to bring  
+                cutting-edge technologies, solutions and top-tier talent to the industry.
+            </p><p>
+                Our professionals are <strong style="color:#EF4623">highly skilled in their respective domains</strong>, possessing the knowledge and experience 
+                to tackle complex challenges and deliver exceptional results. We ensure that we bring-in top-notch 
+                professionals who possess the necessary expertise and experience to deliver exceptional results through 
+                our <strong style="color:#EF4623">rigorous screening and evaluation processes</strong>. We assess technical skills, experience, and cultural fit 
+                to ensure that we provide you with the best talent available.
+            </p><p>
+                We focus on client success and work closely with you to understand your goals and objectives. Our customized business and
+                staff augmentation solutions align with your business needs, ensuring that your success is our priority. 
+                We strive to build <strong style="color:#EF4623">long-term partnerships</strong> with our clients based on trust, transparency, and mutual success.
+            </p><p>
+                Our staff augmentation services allow you to quickly scale your team based on project demands, ensuring 
+                optimal resource <strong style="color:#EF4623">utilization and flexibility</strong> in managing your workforce. We work closely with you to understand 
+                your specific requirements and goals. Our <strong style="color:#EF4623">collaborative approach</strong> ensures that we provide customized workforce 
+                solutions that align with your business objectives.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h6 class="display-4 has-line">Contact Us</h6>
+            <p>Partner with Plata Solutions today and gain access to a pool of highly skilled professionals who will drive
+                innovation and accelerate your business growth. Contact us now to discuss your requirements and take your
+                organization to new heights.</p>
+            <p class="mb-5 pb-2">For all enquiries, please email us at <a href="mailto:info@platasolutions.com">info@platasolutions.com</a>.</p>
+        </div>
+    </section>
+
+    <footer class="footer py-4 bg-dark text-light"> 
+        <div class="container text-center">
+            <p class="mb-4 small">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://platasolutions.com">Plata Solutions</a></p>
+        </div>
+    </footer>
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="assets/js/all.js"></script>
 
 </body>
-
 </html>

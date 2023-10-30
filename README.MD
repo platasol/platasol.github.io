@@ -1,1 +1,1 @@
-# 20khertz.github.io
+# platasol.github.io
